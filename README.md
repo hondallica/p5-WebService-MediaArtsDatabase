@@ -1,10 +1,13 @@
 # NAME
 
-WebService::MediaArtsDatabase - It's new $module
+WebService::MediaArtsDatabase - 文化庁メディア芸術データベース( [http://mediaarts-db.jp](http://mediaarts-db.jp) ) 検索ラッパー
 
 # SYNOPSIS
 
     use WebService::MediaArtsDatabase;
+
+    my $media_arts = new WebService::MediaArtsDatabase;
+    my $res = $media_arts->manga('ドラゴンボール');
 
 # DESCRIPTION
 
